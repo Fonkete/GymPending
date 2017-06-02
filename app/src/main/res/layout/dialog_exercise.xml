@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    android:padding="24dp">
+
+    <EditText
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:id="@+id/nameEt"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:hint="Nombre del ejercicio" />
+
+    <ImageButton
+        android:id="@+id/saveBtn"
+        android:layout_width="54dp"
+        android:layout_height="54dp" />
+
+</LinearLayout>

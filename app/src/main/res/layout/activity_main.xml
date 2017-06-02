@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fonket.gympending.MainActivity">
+
+    <EditText
+        android:id="@+id/inputEt"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="El nombre de su ejercicio" />
+
+    <EditText
+        android:id="@+id/timeEt"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minutos de ejercitación" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR" />
+
+    <Button
+        android:id="@+id/goBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMENZAR EL ENTRENAMIENTO"/>
+
+
+</LinearLayout>
